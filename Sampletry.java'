@@ -1,0 +1,14 @@
+public class Sampletry
+{
+public static void main(String args)
+{
+int a;
+a=100;
+System.out.println("The value of a outside the method"+a);
+}
+public static void putNumber(int a)
+{
+a+=5;
+System.out.println("The value of a inside the method after adding by 5 is "+a);
+}
+}
